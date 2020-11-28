@@ -1,4 +1,4 @@
-(ns components.header)
+(ns navigation)
 
 (defn header-component []
   [:header
