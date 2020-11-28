@@ -9,6 +9,7 @@
 
 (defn home-page []
   [navigation/header-component])
+  ; [slider/slider-component])
 
 ;; -------------------------
 ;; Initialize app
