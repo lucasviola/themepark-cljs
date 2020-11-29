@@ -2,14 +2,16 @@
     (:require
       [reagent.core :as r]
       [reagent.dom :as d]
-      [navigation :as navigation]))
+      [web.component.tag :as tag]
+      [web.component.slider :as slider]))
 
 ;; -------------------------
 ;; Views
 
 (defn home-page []
-  [navigation/header-component])
-  ; [slider/slider-component])
+  [:<>
+    [tag/header-component]
+    [slider/slider-component]])
 
 ;; -------------------------
 ;; Initialize app

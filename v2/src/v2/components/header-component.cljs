@@ -1,4 +1,4 @@
-(ns navigation)
+(ns web.component.tag)
 
 (defn header-component []
   [:header
