@@ -24,7 +24,9 @@ nav
 {
     background-color: #fff;
     overflow: hidden;
-    justify-content: center;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
     border: 1px solid #dee1ea;
 }
 
@@ -77,25 +79,37 @@ h1
     font-size: 2em;
     color: white;
 }
-
-h2
-{
-    font-family: Arial, "Helvetica",'Anton', sans-serif;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: bold;
-    font-size: 1em;
-    color: white;
+.homepage-wrapper {
+  position:relative;
 }
 
-h3
+/* Slider */
+.slider-wrapper
 {
-    font-family: Arial, "Helvetica",'Anton', sans-serif;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: bold;
-    font-size: 2em;
-    color: white;
+  background: url("57101625_10156429379514205_5035902455104143360_o.jpg");
+  width:95em;
+  height:20em;
+  background-position: center;
+}
+
+.title-holder
+{
+  width:30em;
+  height:10em;
+  background-color: black;
+  opacity: 0.5;
+
+  position:absolute;
+  bottom:3em;
+  left:5em;
+}
+
+h1 {
+  font-family: 'Times New Roman', "Helvetica",'Anton', sans-serif;
+  font-size: 2.625rem;
+}
+h2 {
+  color: #fff;
 }
 
 /*Footer*/

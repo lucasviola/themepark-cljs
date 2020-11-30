@@ -9,11 +9,11 @@
 ;; Views
 
 (defn home-page []
-  [:<>
+  [:div {:class "homepage-wrapper"} 
     [tag/header-component]
     [slider/slider-component]])
 
-;; -------------------------
+;; -------------------    ------
 ;; Initialize app
 
 (defn mount-root []
