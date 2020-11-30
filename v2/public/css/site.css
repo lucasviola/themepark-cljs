@@ -9,7 +9,6 @@ body
     /* align-content: center; */
     font-size: 1em;
     color: #213875;
-
 }
 
 a
@@ -24,7 +23,7 @@ nav
 {
     background-color: #fff;
     overflow: hidden;
-    position: fixed; /* Set the navbar to fixed position */
+    /* position: fixed; /* Set the navbar to fixed position */ */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     border: 1px solid #dee1ea;
@@ -79,6 +78,29 @@ h1
     font-size: 2em;
     color: white;
 }
+
+h1 {
+  font-family: 'Times New Roman', "Helvetica",'Anton', sans-serif;
+  font-size: 2.625rem;
+}
+h2 {
+  color: #fff;
+}
+
+footer
+{
+    font-family: Arial, "Helvetica",'Anton', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    background: darkgrey;
+    align-content: center;
+    font-size: 1em;
+    color: black;
+    background-color: lightgray;
+
+}
+
 .homepage-wrapper {
   position:relative;
 }
@@ -104,42 +126,28 @@ h1
   left:5em;
 }
 
-h1 {
-  font-family: 'Times New Roman', "Helvetica",'Anton', sans-serif;
-  font-size: 2.625rem;
-}
-h2 {
-  color: #fff;
-}
-
-/*Footer*/
-footer
+/* Showcase Component */
+.section-wrapper
 {
-    font-family: Arial, "Helvetica",'Anton', sans-serif;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    background: darkgrey;
-    align-content: center;
-    font-size: 1em;
-    color: black;
-    background-color: lightgray;
-
+  width: 100%;
+  height: 25em;
+  border: 1px solid grey;
+  position: absolute;
 }
 
-/*Secondary Page*/
+.showcase-section-holder
+{
+  width: 33%;
+  height:100%;
+  border: 1px solid grey;
+  display: inline-block;
+}
 
-/*Header*/
-
-/*body*/
-
-/*Footer*/
-
-
-/*Third Page*/
-
-/*Header*/
-
-/*body*/
-
-/*Footer*/
+.showcase-image
+{
+  position:absolute;
+}
+.showcase-text-holder {
+  position: absolute;
+  bottom: 0;
+}
