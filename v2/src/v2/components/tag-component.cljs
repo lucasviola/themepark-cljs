@@ -12,3 +12,13 @@
           [:li [:a {:href "#"} "Shopping"]]
           [:li [:a {:href "#"} "Dining"]]
           [:li [:a {:href "#"} "Help and About"]]]]]])
+
+(defn subsection-component [subtitle]
+  [:div
+    [:h1 subtitle]
+    [:div {:class "subsection-image"}]])
+
+(defn section-component [title subtitle]
+  [:section {:class "section-wrapper"}
+    [:h1 title]
+    [subsection-component subtitle]])

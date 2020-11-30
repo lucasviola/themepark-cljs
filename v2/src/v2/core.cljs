@@ -9,9 +9,10 @@
 ;; Views
 
 (defn home-page []
-  [:div {:class "homepage-wrapper"} 
+  [:div {:class "homepage-wrapper"}
     [tag/header-component]
-    [slider/slider-component]])
+    [slider/slider-component]
+    [tag/section-component]])
 
 ;; -------------------    ------
 ;; Initialize app
